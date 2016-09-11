@@ -7,4 +7,4 @@ Volgende bestanden/mappen zijn niet inbegrepen (ignored), omdat ze te groot zijn
 * (map) assets
 * (map) multimedia
 
-Deze bestanden kunnen gedownload worden via ![https://www.dropbox.com/s/ly9fc7avejwk2u1/assets.zip?dl=0](Dropbox).
+Deze bestanden kunnen gedownload worden via [https://www.dropbox.com/s/ly9fc7avejwk2u1/assets.zip?dl=0](Dropbox).
