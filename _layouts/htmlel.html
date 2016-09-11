@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<nav class="sectionnav">
+    <ul>
+        <h2><a href="/htmlels/">HTML elementen</a></h2>
+    {% for element in site.htmlels %}
+        <li {% if page.url == element.url %}class="current"{% endif %}><a href="{{element.url}}">{{element.title}}</a></li>
+    {% endfor %}
+    </ul>
+</nav>
+<article class="post htmlel">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <h2>Voorbeelden</h2>
+  <h3>Code</h3>
+  <div class="htmlcode">
+  {% highlight html %}{{page.elementdemo}}{% endhighlight %}
+  </div>
+  <h3>Resultaat</h3>
+  <div class="htmlresult">
+      {{page.elementdemo}}
+  </div>
+
+</article>

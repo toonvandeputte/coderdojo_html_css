@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<nav class="sectionnav">
+    {% assign navlinks = site.tutorial-html | sort:"weight"  %}
+    <ul>
+    {% for navlink in navlinks %}
+        <li {% if page.url == navlink.url %}class="current"{% endif %}><a href="{{navlink.url}}">{{navlink.title}}</a></li>
+    {% endfor %}
+    </ul>
+</nav>
+<article class="post tutorial">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="description">{{ page.description }}</p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+  <footer>
+      {% if page.nextstep %}
+      <a href="/{{page.collection}}/{{ page.nextstep }}">Volgende stap</a>
+      {% endif %}
+  </footer>
+</article>
