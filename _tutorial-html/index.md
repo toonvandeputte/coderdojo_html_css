@@ -8,6 +8,6 @@ Om zelf een website te maken, moet je HTML kennen. Dat leer je hier stap voor st
 
 <ul>
 {% for element in site.tutorial-html %}
-    <li><a href="{{element.url}}">{{element.title}}</a></li>
+    <li><a href="{{ site.github.url }}{{element.url}}">{{element.title}}</a></li>
 {% endfor %}
 </ul>
