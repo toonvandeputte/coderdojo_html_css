@@ -13,7 +13,7 @@ Deze tutorial is opgesplitst in verschillende delen:
 
 <ul>
 {% for element in site.tutorial-html %}
-    <li><a href="{{element.url}}">{{element.title}}</a></li>
+    <li><a href="{{ site.github.url }}{{element.url}}">{{element.title}}</a></li>
 {% endfor %}
 </ul>
 
@@ -22,6 +22,6 @@ Deze tutorial is opgesplitst in verschillende delen:
 
 <ul>
 {% for element in site.tutorial-css %}
-    <li><a href="{{element.url}}">{{element.title}}</a></li>
+    <li><a href="{{ site.github.url }}{{element.url}}">{{element.title}}</a></li>
 {% endfor %}
 </ul>
