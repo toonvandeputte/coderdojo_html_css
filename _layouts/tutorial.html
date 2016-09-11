@@ -5,7 +5,7 @@ layout: default
     {% assign navlinks = site.tutorial-html | sort:"weight"  %}
     <ul>
     {% for navlink in navlinks %}
-        <li {% if page.url == navlink.url %}class="current"{% endif %}><a href="{{navlink.url}}">{{navlink.title}}</a></li>
+        <li {% if page.url == navlink.url %}class="current"{% endif %}><a href="{{ site.github.url }}{{navlink.url}}">{{navlink.title}}</a></li>
     {% endfor %}
     </ul>
 </nav>
