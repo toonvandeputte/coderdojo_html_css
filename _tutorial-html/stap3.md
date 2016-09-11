@@ -8,11 +8,11 @@ Een webpagina is dus een eenvoudig tekstdocument, met veel speciale code die een
 
 De naam van die speciale code is 'HTML', wat staat voor Hypertext Markup Language. Je kan de HTML code van elke webpagina bekijken. Daarvoor rechtsklik je op een pagina en kies je 'bron bekijken' of 'view source'.
 
-![Dropdownmenu met 'view source' uitgelicht](/images/dropdown_viewsource.png)
+![Dropdownmenu met 'view source' uitgelicht]({{ site.github.url }}/images/dropdown_viewsource.png)
 
 Daarna krijg je dan een venster als dit te zien:
 
-![De broncode van een webpagina](/images/browser_viewsource.png)
+![De broncode van een webpagina]({{ site.github.url }}/images/browser_viewsource.png)
 
 Elke webpagina bestaat uit heel veel verschillende HTML-elementen. Bijvoorbeeld <code>{{ "<p>Hallo wereld!</p>" | xml_escape }}</code>, dat is een <code>{{ "<p>" | xml_escape }}</code> element.
 

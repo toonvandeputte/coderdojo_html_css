@@ -35,7 +35,7 @@ Voor afbeeldingen gebruik je het `<img>` element. Hier moet je voor het eerst oo
 
 Om afbeeldingen toe te voegen aan je site, zet je die best in een apart mapje. Maak in het mapje waar je je site hebt staan een nieuwe map en noem die <em>images</em>. Daarin kan je dan afbeeldingen zetten die je kan gebruiken.
 
-![De 'images' folder](/images/folder_images.png)
+![De 'images' folder]({{ site.github.url }}/images/folder_images.png)
 
 Als je in index.html als src-attribuut `images/glitch-flashing-MpEb9fz3M1lZe.gif`, dan betekent dit dat de browser het beeld `glitch-flashing-MpEb9fz3M1lZe.gif` gaat zoeken in de map `images`.
 

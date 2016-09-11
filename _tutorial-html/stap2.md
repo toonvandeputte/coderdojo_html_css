@@ -28,7 +28,7 @@ Sla het bestand op in het mapje dat je in [stap 1](stap1) gemaakt heb en geef he
 </ul>
 
 Als je nu dubbelklikt op dit bestandje, zal je browser openen en zie je een scherm dat lijkt op dit:
-![Screenshot van een browser](/images/browser_helloworld.png)
+![Screenshot van een browser]({{ site.github.url }}/images/browser_helloworld.png)
 
 Je ziet dat heel veel van de HTML-code die in je webpagina staat, niet te zien is. Daar zorgt je browser voor. Die leest het HTML-document en verwerkt het tot iets dat er veel beter leesbaar uitziet.
 

@@ -41,6 +41,6 @@ Wil je een YouTube-filmpje op je site zetten, dan kan dat ook, met een iframe. E
 
 Deze iframe-code kan je bij de meeste filmpjes op YouTube vinden:
 
-![Never gonna give you up](/images/rickroll.png)
+![Never gonna give you up]({{ site.github.url }}/images/rickroll.png)
 
 Ook bij andere sites vind je vaak 'embed' code.

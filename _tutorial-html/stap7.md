@@ -18,17 +18,17 @@ We zetten de verschillende soorten afbeelding even op een rijtje.
 </tr>
 <tr>
     <td>jpg</td>
-    <td markdown="span" style="background-color:rgb(250,50,50);">![Coderdojo logo](/images/compressie.jpg)
+    <td markdown="span" style="background-color:rgb(250,50,50);">![Coderdojo logo]({{ site.github.url }}/images/compressie.jpg)
     </td>
 </tr>
 <tr>
     <td>gif</td>
-    <td markdown="span" style="background-color:rgb(250,50,50);">![Coderdojo logo](/images/compressie.gif)
+    <td markdown="span" style="background-color:rgb(250,50,50);">![Coderdojo logo]({{ site.github.url }}/images/compressie.gif)
     </td>
 </tr>
 <tr>
     <td>png</td>
-    <td markdown="span" style="background-color:rgb(250,50,50);">![Coderdojo logo](/images/compressie.png)
+    <td markdown="span" style="background-color:rgb(250,50,50);">![Coderdojo logo]({{ site.github.url }}/images/compressie.png)
     </td>
 </tr>
 </table>
@@ -36,7 +36,7 @@ We zetten de verschillende soorten afbeelding even op een rijtje.
 ## jpeg
 Jpeg wordt vooral gebruikt voor foto's en andere afbeeldingen die geen scherpe kleurvlakken hebben. De compressie van jpeg zorgt er namelijk voor dat scherpe lijnen en volle kleuren 'vuil' en vager worden. Bij foto's zie je dat niet.
 
-![De 'images' folder](/images/compressie.jpg)
+![De 'images' folder]({{ site.github.url }}/images/compressie.jpg)
 
 Je maakt jpegs met een fotobewerkingsprogramma als Gimp. De meeste digitale fototoestellen slaan hun foto's ook meteen op als jpeg. Om die op je website te gebruiken, maak je ze best eerst wel kleiner.
 
@@ -44,7 +44,7 @@ Je maakt jpegs met een fotobewerkingsprogramma als Gimp. De meeste digitale foto
 Dit is het oudste soort afbeeldingen voor het web. Een gif kan maximum 256 kleuren bevatten. Dat merk je vooral als je kleurrijke foto's als gif wil opslaan.
 Een gif kan transparant zijn, maar elke pixel is ofwel helemaal onzichtbaar ofwel helemaal zichtbaar. Daardoor zie je soms kartelranden.
 
-![De 'images' folder](/images/compressie.gif)
+![De 'images' folder]({{ site.github.url }}/images/compressie.gif)
 
 Het grootste voordeel van gifs is dat je gif-animaties kan maken. Die zijn meestal wel heel erg groot (in megabytes), dus je houdt ze best klein en kort.
 
@@ -53,7 +53,7 @@ Je maakt _animated gifs_ online of met een programma als Gimp. Maar je kan er oo
 ## png
 Dit is de 'modernste' veelgebruikte soort afbeeldingen voor het web. png's kunnen een transparante achtergrond hebben, zelfs gedeeltelijk doorschijnend. Het belangrijkste nadeel aan png is dat je er geen animatie in kan stoppen.
 
-![De 'images' folder](/images/compressie.png)
+![De 'images' folder]({{ site.github.url }}/images/compressie.png)
 
 Je maakt png's met een fotobewerkingsprogramma als Gimp. Online kan je bijvoorbeeld Pixlr gebruiken.
 
