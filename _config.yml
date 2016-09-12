@@ -23,6 +23,8 @@ collections:
     output: false
   tutorial-html:
     output: true
+  tutorial-css:
+    output: true
 
 defaults:
   - scope:
@@ -33,5 +35,10 @@ defaults:
   - scope:
       path: ""
       type: tutorial-html
+    values:
+      layout: tutorial
+  - scope:
+      path: ""
+      type: tutorial-css
     values:
       layout: tutorial

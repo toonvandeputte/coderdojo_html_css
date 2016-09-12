@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+
 <nav class="sectionnav">
-    {% assign navlinks = site.tutorial-html | sort:"weight"  %}
+    <h2><a href="{{ site.github.url }}/tutorial">Tutorial</a></h2>
+    {% assign navlinks = site[page.collection] | sort:"weight"  %}
     <ul>
     {% for navlink in navlinks %}
         <li {% if page.url == navlink.url %}class="current"{% endif %}><a href="{{ site.github.url }}{{navlink.url}}">{{navlink.title}}</a></li>
