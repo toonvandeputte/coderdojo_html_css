@@ -252,7 +252,7 @@
         flex-basis: 200px;
         flex-grow:1;
         min-width: 200px;
-        padding-right: 10px;
+        //padding-right: 10px;
     }
     .post {
         flex-basis: 500px;
@@ -264,6 +264,43 @@
     background-color:$grey-color-light;
     .current {
         font-weight: bold;
+        a:before {
+            content:"\f111";
+            font-weight: normal;
+        }
+    }
+    h2 {
+        font-size: 16px;
+        padding:10px;
+        background-color: $grey-color-dark;
+        color:white;
+        a {
+            color:white;
+            position:relative;
+            display: block;
+            &:after {
+                font-family: 'FontAwesome';
+                content:" \f148";
+            }
+        }
+    }
+    ul {
+        list-style: none;
+        margin:0;
+        li a {
+            display: block;
+            padding-left: 30px;
+            position: relative;
+            padding-bottom: 5px;
+            &:before {
+                font-family: 'FontAwesome';
+                content:"\f10c";
+                position:absolute;
+                left:10px;
+                top:0;
+                color:$grey-color;
+            }
+        }
     }
 }
 .deftable {
