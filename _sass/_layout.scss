@@ -387,3 +387,24 @@ ul.folderlist {
         margin-right:5px;
     }
 }
+
+.kleurtester-container {
+    //padding:20px;
+    border-color:$grey-color;
+    margin-bottom: 60px;
+    .input {
+        margin-bottom: 16px;
+        label {
+            display: block;
+        }
+        input {
+            padding:10px;
+            font-size: 20px;
+        }
+    }
+    .kleurbalk {
+        width:150px;
+        height:150px;
+        border:1px solid $grey-color-light;
+    }
+}
