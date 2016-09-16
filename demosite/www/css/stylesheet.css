@@ -1,0 +1,19 @@
+body {
+    background-color:yellow;
+    background-image:url('../images/transparent-video-games-spin-NALqrbV47acqA.gif');
+    font-family:sans-serif;
+    padding:20px;
+    color:#6620FF;
+}
+p {
+    background-color:chocolate;
+    font-size:20px;
+    color:pink;
+}
+li.speciaal {
+    background-color:red;
+}
+#paginatitel {
+    background-color:blue;
+    color:white;
+}
