@@ -41,8 +41,6 @@ Ziezo, je aller-allereerste webpagina is een feit! Laten we even kijken wat deze
 
 Zo, misschien begrijp je nu al wat meer over hoe een webpagina in elkaar zit. Probeer gerust wat te experimenteren door meer regels als <code>{{ "<p>Hallo wereld!</p>" | xml_escape }}</code> toe te voegen en de tekst te veranderen.
 
-<div class="attention">
-    Als je aanpassingen doet, zullen die niet meteen zichtbaar zijn. Daarvoor moet je de pagina verversen. Je kan dit ook doen door de toetscombinatie CTRL-R (of Command-R op Mac) te gebruiken.
-</div>
+{% include attention.html notice="Als je aanpassingen doet, zullen die niet meteen zichtbaar zijn. Daarvoor moet je de pagina verversen. Je kan dit ook doen door de toetscombinatie CTRL-R (of Command-R op Mac) te gebruiken." %}
 
-Maar je hebt zeker ook een boel nieuwe vragen. En misschien wil je ook wel wat meer kunnen dan gewoon zwarte tekst op een witte pagina? Op naar de volgende stap!
+Je hebt zeker ook een boel nieuwe vragen. En misschien wil je ook wel wat meer kunnen dan gewoon zwarte tekst op een witte pagina? Op naar de volgende stap!

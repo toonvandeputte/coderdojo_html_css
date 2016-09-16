@@ -1,7 +1,7 @@
 ---
 title:  Titels toevoegen
 description: Een beetje structuur in je pagina
-nextstep: stap5
+nextstep: stap4b
 weight: 500
 ---
 We hebben al een eenvoudige webpagina gemaakt. Daar gaan we nu wat titels aan toevoegen.
@@ -17,7 +17,7 @@ Titel-tags beginnen altijd met `h`, en er zijn verschillende niveaus. De belangr
 <h5>Hoofding</h5>
 <h6>Hoofding</h6>" %}
 
-Probeer eens wat titels toe te voegen aan de pagina die je maakt. Zoals in het voorbeeld hieronder.
+Probeer eens wat titels toe te voegen aan de pagina die je maakt, tussen de `<body>` en `</body>` tags, in het body-element dus. Zoals in het voorbeeld hieronder.
 {% highlight html %}<!doctype html>
 <html>
     <head>

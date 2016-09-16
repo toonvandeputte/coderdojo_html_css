@@ -28,8 +28,6 @@ body {
 
 Wat je nu gemaakt hebt is één 'ruleset', of 'regelset' in het Nederlands. Met deze CSS-code zorg je ervoor dat het hele `<body>` element een gele achtergrond heeft ('yellow' in het Engels). Het stuk `body {}` noemen we de *selector*. De regels die daarin staan, zoals `color:blue;` zijn de stijlregels. Zo'n stijlregel bestaat uit een eigenschap (`color` in het voorbeeld) en een waarde (`blue` in het voorbeeld). Daartussen staat een dubbelepunt.
 
-<div class="attention">
-Bij CSS is het belangrijk dat je alles juist schrijft, belangrijker dan bij HTML. Je moet er op letten dat je geen `}` vergeet, bijvoorbeeld. En ook de puntkomma op het einde van elke stijlregel is belangrijk. Als je die vergeet, dan zal je CSS niet werken.
-</div>
+{% include attention.html notice="Bij CSS is het belangrijk dat je alles juist schrijft, belangrijker dan bij HTML. Je moet er op letten dat je geen `}` vergeet, bijvoorbeeld. En ook de puntkomma op het einde van elke stijlregel is belangrijk. Als je die vergeet, dan zal je CSS niet werken." %}
 
 In de volgende stap gaan we kijken welke soorten stijlregels je zoal kan gebruiken.
