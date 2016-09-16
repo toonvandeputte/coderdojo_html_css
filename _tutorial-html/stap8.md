@@ -47,3 +47,7 @@ Je hebt nu dus een link naar coderdojo.html toegevoegd met volgende code:
 Op die manier kan je links naar elke pagina op het web leggen. Bijvoorbeeld ook naar Google:
 
 {% include codecompare.html code="<a href=\"http://www.google.com\">Google</a>" %}
+
+Om de juiste link te leggen naar een andere pagina op het internet, heb je de url ervan nodig. Die vind je in de adresbalk van je browser:
+
+![screenshot van adresbalk]({{ site.githhub.url }}/images/screenshot_url.png)

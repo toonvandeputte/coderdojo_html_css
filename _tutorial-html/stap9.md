@@ -43,4 +43,15 @@ Deze iframe-code kan je bij de meeste filmpjes op YouTube vinden:
 
 ![Never gonna give you up]({{ site.github.url }}/images/rickroll.png)
 
-Ook bij andere sites vind je vaak 'embed' code.
+Ook bij andere sites vind je vaak 'embed' code. Je kan bijvoorbeeld ook een Scratch-project embedden op je webpagina:
+
+![Scratch embedcode]({{ site.github.url }}/images/embed_scratch.png)
+
+{% include codecompare.html code="<iframe
+    allowtransparency=\"true\"
+    width=\"485\"
+    height=\"402\"
+    src=\"//scratch.mit.edu/projects/embed/68387138/?autostart=false\"
+    frameborder=\"0\"
+    allowfullscreen>
+</iframe>" %}
