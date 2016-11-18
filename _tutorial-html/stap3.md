@@ -16,9 +16,13 @@ Daarna krijg je dan een venster als dit te zien:
 
 Elke webpagina bestaat uit heel veel verschillende HTML-elementen. Bijvoorbeeld <code>{{ "<p>Hallo wereld!</p>" | xml_escape }}</code>, dat is een <code>{{ "<p>" | xml_escape }}</code> element.
 
+![html ontleed]({{ site.github.url }}/images/explanations_html_example.png)
+
 Zo kan je van elke pagina die je op het internet tegenkomt de broncode bekijken. Meestal zal die wel iets ingewikkelder zijn dan dit voorbeeld ;-)
 
 Elementen bestaan uit één of meer tags. Het <code>{{ "<p>" | xml_escape }}</code> element, bijvoorbeeld, heeft een start- en een eindtag. De eindtag van een element is net hetzelfde als de begintag, maar begint met <code>{{ "</" | xml_escape }}</code> in plaats van <code>{{ "<" | xml_escape }}</code>.
+
+![html ontleed]({{ site.github.url }}/images/explanations_html_example_elements.png)
 
 {% include attention.html notice="De meeste HTML-code die je zelf gaat schrijven, zal je tussen `<body>` en `</body>` zetten, daar staan de dingen die zichtbaar zijn voor een bezoeker." %}
 

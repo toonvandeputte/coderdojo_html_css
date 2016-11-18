@@ -1,9 +1,21 @@
 ## HTML5 / CSS instructie site.
-Deze site gebruikt Jekyll. Om lokaal de site te genereren en toegankelijk te maken, doe je:
+Deze site gebruikt Jekyll.
+
+Jekyll installeren doe je op MacOS met:
+
+`$ sudo gem install -n /usr/local/bin/ jekyll bundler`
+
+Om lokaal de site te genereren en toegankelijk te maken, doe je:
 
 `$ bundle exec jekyll serve`
 
-Volgende bestanden/mappen zijn niet inbegrepen (ignored), omdat ze te groot zijn:
+De site zal dan beschikbaar zijn via http://localhost:4000/
+
+Als `$ bundle exec jekyll serve` een foutmelding geeft op het out of date zijn van Jekyll, moet je een update uitvoeren:
+
+`$ bundle update`
+
+Volgende bestanden/mappen zijn niet inbegrepen (ignored) in de gegenereerde site, omdat ze te groot zijn:
 * (map) assets
 * (map) multimedia
 
