@@ -32,7 +32,7 @@ Op school heb je geleerd dat geel en blauw samen groen worden, en dat rood en bl
 
 Kleuren in css bestaan uit Rood, Groen en Blauw. Door die drie te mengen, kan je alle kleuren maken. Dat is even wennen als je enkel mengen met verf gewend bent. Je krijgt misschien niet altijd de kleur die je denkt te krijgen. Door veel met kleur te werken, leer je dat op den duur beter kennen.
 
- Je kan RGB-kleuren in css op twee manieren noteren:
+Je kan RGB-kleuren in css op verschillende manieren noteren, dit zijn de voormaanste:
 
 {% highlight css %}
 body {    
@@ -56,67 +56,11 @@ Deze manier van noteren is moeilijker te lezen, maar is korter. Als je op het in
 
 Na het hekje (#) heb je daar drie getallen van twee cijfers. Het eerste (66) is de waarde van rood, het tweede (20) is groen en het derde (FF) is blauw.
 
-Deze getallen zijn hexadecimaal genoteerd. Dat wil zeggen dat er zestien aparte cijfers gebruikt worden. In tegenstelling tot de tien die je gewend bent. In het decimale stelsel heb je de cijfers 0,1,2,3,4,5,6,7,8,9. In het hexadecimale heb je 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F. Voor de extra zes cijfers worden dus letters gebruikt. Laten we zo even tot 16 tellen:
+Dat laatste (FF) lijkt toch helemaal niet op een getal? Dat komt omdat het *hexadecimaal* genoteerd is. Het meeste bekende getalstelsel is het decimale, waar je tien aparte cijfers hebt (0,1,2,3,4,5,6,7,8,9). In het hexadecimale stelsel heb je zestien cijfers (0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F). De letters A tot en met F worden hier dus gebruikt on een getalwaarde weer te geven, namelijk 10 tot en met 15. In het hexadecimale stelsel kan je langere getallen met minder cijfers schrijven:
 
-<table class="deftable">
-    <tr>
-        <th>decimaal</th>
-        <th>hexadecimaal</th>
-    </tr>
-    <tr>
-        <td>0</td><td>0</td>
-    </tr>
-    <tr>
-        <td>1</td><td>1</td>
-    </tr>
-    <tr>
-        <td>2</td><td>2</td>
-    </tr>
-    <tr>
-        <td>3</td><td>3</td>
-    </tr>
-    <tr>
-        <td>4</td><td>4</td>
-    </tr>
-    <tr>
-        <td>5</td><td>5</td>
-    </tr>
-    <tr>
-        <td>6</td><td>6</td>
-    </tr>
-    <tr>
-        <td>7</td><td>7</td>
-    </tr>
-    <tr>
-        <td>8</td><td>8</td>
-    </tr>
-    <tr>
-        <td>9</td><td>9</td>
-    </tr>
-    <tr>
-        <td>10</td><td>A</td>
-    </tr>
-    <tr>
-        <td>11</td><td>B</td>
-    </tr>
-    <tr>
-        <td>12</td><td>C</td>
-    </tr>
-    <tr>
-        <td>13</td><td>D</td>
-    </tr>
-    <tr>
-        <td>14</td><td>E</td>
-    </tr>
-    <tr>
-        <td>15</td><td>F</td>
-    </tr>
-    <tr>
-        <td>16</td><td>10</td>
-    </tr>
-</table>
+![hexadecimaal telvoorbeeld]({{ site.github.url }}/images/explanations_counting_hex.png)
 
-Het grootste getal dat je hexadecimaal met twee cijfers kan noteren is 'FF' ofwel 255. Daarom dat hexadecimaal gebruikt wordt voor compacte webkleuren.
+De '20' in het voorbeld van de webkleur is dus in feite '32', maar dan hexadecimaal genoteerd. 'FF' is de hoogst mogelijke waarde die je met twee hexadecimale cijfers kan noteren, en staat voor '255'.
 
 {% include attention.html notice="Je hoeft niet van buiten te leren hoe je hexadecimaal kan tellen. Er bestaan op internet [websites](http://www.psyclops.com/tools/rgb/) die de omzetting makkelijk maken. De rekenmachine van je computer kan je ook helpen." %}
 

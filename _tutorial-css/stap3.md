@@ -31,7 +31,7 @@ Je zal zien dat je pagina er weer wat anders uitziet. Een overzicht van wat er v
             url('../images/controller.gif');`</td><td markdown="span">Bepaalt een achtergrondbeeld. Standaard herhaalt dat beeld zich over de hele pagina. Met `background-repeat` kan je dat verder verfijnen.</td>
     </tr>
     <tr>
-        <td markdown="span">)`font-family:sans-serif;`</td><td markdown="span">Met `font-family` kan je een lettertype kiezen. `sans-serif` is het standaard schreefloze lettertype, meestal Arial of Helvetica. `serif` is het standaard schreeflettertype. Meestal Times of Times New Roman. Je kan ook andere lettertypes gebruiken. Maar die moeten dan wel geïnstalleerd zijn op de computer van je bezoeker, of als webfont mee in je site zitten.</td>
+        <td markdown="span">`font-family:sans-serif;`</td><td markdown="span">Met `font-family` kan je een lettertype kiezen. `sans-serif` is het standaard schreefloze lettertype, meestal Arial of Helvetica. `serif` is het standaard schreeflettertype. Meestal Times of Times New Roman. Je kan ook andere lettertypes gebruiken. Maar die moeten dan wel geïnstalleerd zijn op de computer van je bezoeker, of als webfont mee in je site zitten.</td>
     </tr>
     <tr>
         <td markdown="span">`padding:20px;`</td><td markdown="span">Met `padding` kan je een extra ruimte toevoegen binnen in het element. In dit geval wordt er boven, links en rechts 20 pixels ruimte vrijgehouden.</td>
