@@ -11,7 +11,7 @@ email: toon@automaton.be
 description: > # this means to ignore newlines until "baseurl:"
   Leer zelf een website maken met HTML en CSS.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://toonvandeputte.github.io/" # the base hostname & protocol for your site
+url: "/" # the base hostname & protocol for your site
 twitter_username: toonvandeputte
 github_username:  toonvandeputte
 
