@@ -1,7 +1,7 @@
 ---
 title:  Soorten afbeeldingen
 description: png, gif, jpg, en...?
-nextstep: stap8
+nextstep: stap8-links
 weight: 800
 ---
 
@@ -48,7 +48,9 @@ Een gif kan transparant zijn, maar elke pixel is ofwel helemaal onzichtbaar ofwe
 
 Het grootste voordeel van gifs is dat je gif-animaties kan maken. Die zijn meestal wel heel erg groot (in megabytes), dus je houdt ze best klein en kort.
 
-Je maakt _animated gifs_ online of met een programma als Gimp. Maar je kan er ook heel veel kant en klaar vinden op Giphy.
+Je maakt _animated gifs_ online of met een programma als Gimp.
+
+{% include attention.html notice="Animated gifs zijn vaak heel erg groot. Als je er zelf maakt, let je dus best op dat ze niet te groot worden (in kilo- of megabytes). Je kan ook heel veel kant-en-klare gifs vinden op [Giphy](http://www.giphy.com)" %}
 
 ## png
 Dit is de 'modernste' veelgebruikte soort afbeeldingen voor het web. png's kunnen een transparante achtergrond hebben, zelfs gedeeltelijk doorschijnend. Het belangrijkste nadeel aan png is dat je er geen animatie in kan stoppen.

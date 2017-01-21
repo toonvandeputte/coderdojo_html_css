@@ -1,7 +1,7 @@
 ---
 title:  Hallo wereld, achter de schermen
 description: Je eerste pagina ontleed
-nextstep: stap3
+nextstep: stap3-htmlbouwstenen
 weight: 300
 ---
 

@@ -1,7 +1,7 @@
 ---
 title:  Titels toevoegen
 description: Een beetje structuur in je pagina
-nextstep: stap4b
+nextstep: stap4b-vogels
 weight: 500
 ---
 We hebben al een eenvoudige webpagina gemaakt. Daar gaan we nu wat titels aan toevoegen.

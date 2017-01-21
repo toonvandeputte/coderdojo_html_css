@@ -1,7 +1,7 @@
 ---
 title:  Lijsten toevoegen
 description: Alles netjes op een rij
-nextstep: stap6
+nextstep: stap6-prentjes
 weight: 600
 ---
 Lijsten zijn makkelijk te overlopen en lezen vaak vlotter dan een doorlopende tekst.

@@ -1,7 +1,7 @@
 ---
 title:  Nesting
 description: Nee, niets met vogels
-nextstep: stap5
+nextstep: stap5-lijsten
 weight: 550
 ---
 Je kan de meeste elementen binnen in elkaar zetten. Bijvoorbeeld zoals in dit voorbeeld:

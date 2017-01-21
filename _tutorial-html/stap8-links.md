@@ -1,7 +1,7 @@
 ---
 title:  Links
 description: Meer dan één pagina aan elkaar linken
-nextstep: stap8
+nextstep: stap8b-paden
 weight: 900
 ---
 Je hebt nu één webpagina gemaakt, met wat tekst op. Maar dat is nog geen website. Een website heb je pas als je meerdere pagina's aan elkaar verbindt. Dat kan je doen met links.
