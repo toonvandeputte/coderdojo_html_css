@@ -9,6 +9,14 @@ Wil je leren hoe je je eigen website maakt? Dat kan! En het zal je verbazen hoe 
 
 Deze tutorial is opgesplitst in verschillende delen:
 
+## Algemeen
+
+<ul>
+{% for element in site.tutorial-intro %}
+    <li><a href="{{ site.github.url }}{{element.url}}">{{element.title}}</a></li>
+{% endfor %}
+</ul>
+
 ## HTML
 
 <ul>

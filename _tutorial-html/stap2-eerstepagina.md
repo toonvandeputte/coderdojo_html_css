@@ -1,7 +1,7 @@
 ---
 title:  Hallo wereld
 description: Je eerste pagina
-nextstep: stap2b
+nextstep: stap2b-pagina-ontleed
 weight: 200
 ---
 We gaan je allereerste webpagina maken. Die is nog heel klein.

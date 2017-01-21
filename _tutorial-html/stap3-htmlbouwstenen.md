@@ -1,7 +1,7 @@
 ---
 title:  Tags en elementen
 description: De bouwstenen van HTML
-nextstep: stap4
+nextstep: stap4-structuur
 weight: 400
 ---
 Een webpagina is dus een eenvoudig tekstdocument, met veel speciale code die een bezoeker nooit te zien krijgt. Die code is niet zichtbaar voor bezoekers, maar dient alleen om je browser te helpen om de inhoud te tonen.

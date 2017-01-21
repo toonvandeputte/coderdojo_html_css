@@ -1,7 +1,7 @@
 ---
 title:  Afbeeldingen
 description: Jeuj! Prentjes!
-nextstep: stap7
+nextstep: stap7-soorten-afbeeldingen
 weight: 700
 ---
 We hebben tot nu toe alleen nog maar tekst toegevoegd. Maar de échte fun begint als je afbeeldingen kan toevoegen.
