@@ -1,7 +1,7 @@
 ---
 title: Complexe selectors
 description: Goed kunnen kiezen is belangrijk
-#nextstep: stap6
+nextstep: stap7
 weight: 600
 ---
 
