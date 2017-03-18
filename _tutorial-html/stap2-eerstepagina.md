@@ -4,9 +4,16 @@ description: Je eerste pagina
 nextstep: stap2b-pagina-ontleed
 weight: 200
 ---
-We gaan je allereerste webpagina maken. Die is nog heel klein.
+We gaan je allereerste webpagina maken. Die is nog heel klein. Zo doe je dat:
 
-Open je editor en typ de volgende tekst:
+1. Open eerst in Atom het mapje van je site. Dat doe je via het file menu    
+![Screenshot van het file menu met 'open folder' geselecteerd]({{ site.github.url }}/images/atom_open.png)
+![Screenshot van het file menu met 'open folder' geselecteerd]({{ site.github.url }}/images/atom_finder.png)
+
+1. Open in Atom een nieuw document, dat doe je ook via het file menu    
+![Screenshot van het file menu met 'open folder' geselecteerd]({{ site.github.url }}/images/atom_newfile1.png)
+
+Je hebt nu een leeg document, en daar kan je dit zetten:
 {% highlight html %}<!doctype html>
 <html>
     <head>
