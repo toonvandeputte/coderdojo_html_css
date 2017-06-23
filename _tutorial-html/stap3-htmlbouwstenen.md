@@ -28,7 +28,7 @@ Elementen bestaan uit één of meer tags. Het <code>{{ "<p>" | xml_escape }}</co
 
 Er zijn ook elementen die maar uit één tag bestaan, zoals <code>{{ "<img />" | xml_escape }}</code>. Om die af te sluiten heb je geen extra tag nodig, maar beëindig je het element met <code>{{ "/>" | xml_escape }}</code> in plaats van <code>{{ ">" | xml_escape }}</code>. Zoals in dit voorbeeld:
 
-{% include codecompare.html code="<img src=\"/assets/gifs/cat-pixel-12PXNbcHW8C9Bm.gif\" alt=\"nyancat\" width=\"300\" />" %}
+{% include codecompare.html id="afbeelding" code="<img src=\"/assets/gifs/cat-pixel-12PXNbcHW8C9Bm.gif\" alt=\"nyancat\" width=\"300\" />" %}
 
 {% include attention.html notice="Vaak worden de begrippen 'element' en 'tag' door elkaar gebruikt. Meestal kan dat geen kwaad, maar het is dus eigenlijk niet hetzelfde. Een tag is de manier waarop je een element aangeeft in een webpagina." %}
 

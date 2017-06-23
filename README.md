@@ -22,4 +22,4 @@ Volgende bestanden/mappen zijn niet inbegrepen (ignored) in de gegenereerde site
 Deze bestanden kunnen gedownload worden via [Dropbox](https://www.dropbox.com/s/ly9fc7avejwk2u1/assets.zip?dl=0).
 
 ## Github pages
-Deze site is ook te raadplegen via [Github pages](https://toonvandeputte.github.io/coderdojo_html_css/). Het kan zijn dat sommige downloadlinks (naar assets.zip bvb) daar niet werken.
+Deze site is ook te raadplegen via [Github pages](https://toonvandeputte.github.io/coderdojo_html_css/), ook bereikbaar via [http://autn.be/sitesmaken](http://autn.be/sitesmaken). Het kan zijn dat sommige downloadlinks (naar assets.zip bvb) daar niet werken.

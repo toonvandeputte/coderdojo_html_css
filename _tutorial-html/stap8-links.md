@@ -42,7 +42,7 @@ Nu kan je in index.html de code aanpassen, zodat 'ie er zo uitziet:
 
 Je hebt nu dus een link naar coderdojo.html toegevoegd met volgende code:
 
-{% include codecompare.html code="<a href=\"coderdojo.html\">Coderdojo</a>" %}
+{% include codecompare.html id="link" code="<a href=\"coderdojo.html\">Coderdojo</a>" %}
 
 Op die manier kan je links naar elke pagina op het web leggen. Bijvoorbeeld ook naar Google:
 

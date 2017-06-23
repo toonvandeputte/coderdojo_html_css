@@ -64,7 +64,7 @@ SVG hoort niet helemaal thuis in dit lijstje, want het is een _vectorieel_ soort
 
 SVG is eigenlijk ook code, die lijkt op HTML . Je kan svg ook meteen in je website als code schrijven. De details daarvan gaan we hier niet uitleggen, maar hier is een voorbeeld:
 
-{% include codecompare.html code='<svg
+{% include codecompare.html id="svg" code='<svg
   xmlns="http://www.w3.org/2000/svg"
   version="1.1"
   width="100%"

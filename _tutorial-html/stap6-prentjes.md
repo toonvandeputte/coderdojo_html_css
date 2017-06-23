@@ -8,8 +8,8 @@ We hebben tot nu toe alleen nog maar tekst toegevoegd. Maar de échte fun begint
 
 Voor afbeeldingen gebruik je het `<img>` element. Hier moet je voor het eerst ook attributen gaan gebruiken. Dat is extra informatie die je aan een tag toevoegt. Bij een afbeelding is dat bijvoorbeeld de verwijzing naar waar de afbeelding staat.
 
-{% include codecompare.html code='<img
-    src="/assets/gifs/cat-pixel-12PXNbcHW8C9Bm.gif"
+{% include codecompare.html id="afbeelding2" code='<img
+    src="http://www.automaton.be/coderdojo/html_css/assets/gifs/cat-pixel-12PXNbcHW8C9Bm.gif"
     alt="nyancat"
     width="300" />' %}
 

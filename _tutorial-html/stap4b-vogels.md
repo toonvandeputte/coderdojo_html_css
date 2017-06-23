@@ -6,7 +6,7 @@ weight: 550
 ---
 Je kan de meeste elementen binnen in elkaar zetten. Bijvoorbeeld zoals in dit voorbeeld:
 
-{% include codecompare.html code="<p>
+{% include codecompare.html id="filmpje" code="<p>
     Bekijk filmpjes op <a href=\"http://www.youtube.com/\">YouTube</a>.
 </p>" %}
 

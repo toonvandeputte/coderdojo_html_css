@@ -257,6 +257,7 @@
     .post {
         flex-basis: 500px;
         flex-grow:3;
+        overflow: hidden;
     }
 }
 
@@ -408,7 +409,43 @@ ul.folderlist {
         border:1px solid $grey-color-light;
     }
 }
+/* begin in-page code editor */
+.code_editor {
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width:100%;
+}
 
+.code_preview_wrapper, .code_editor_wrapper {
+    @media screen and (min-width: 800px) {
+        max-width: 50%;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    height:500px;
+    border: 1px $grey-color-light solid;
+}
+.code_preview_wrapper {
+    overflow: scroll;
+    white-space: nowrap;
+    @media screen and (min-width: 800px) {
+        border-left:none;
+    }
+}
+
+.code_preview {
+    height: auto;
+}
+
+.code_editor_cols {
+    max-width: 100%;
+    @media screen and (min-width: 800px) {
+        display: flex;
+    }
+}
+
+/* end in-page code editor */
 /* css transform demo */
 .flip-container {
 	perspective: 1000px;
