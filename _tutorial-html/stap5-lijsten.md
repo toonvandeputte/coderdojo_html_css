@@ -14,13 +14,13 @@ Je kan lijsten ook in en door elkaar gebruiken, om zo meer ingewikkelde opsommin
 
 ## Geordende lijst
 
-{% include codecompare.html code="<ol>
+{% include codecompare.html id="orderedlist" code="<ol>
     <li>Stap 1</li>
     <li>Stap 2</li>
     <li>Stap 3</li>
 </ol>" %}
 
-{% include codecompare.html code="<ul>
+{% include codecompare.html id="unorderedlist" code="<ul>
     <li>Slaapzak</li>
     <li>Tandenborstel</li>
     <li>Pyama</li>

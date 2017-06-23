@@ -10,7 +10,7 @@ Titels zorgen ervoor dat mensen langere teksten makkelijker kunnen lezen. Bovend
 
 Titel-tags beginnen altijd met `h`, en er zijn verschillende niveaus. De belangrijkste titel is `h1`, en de minst belangrijke is `h6`.
 
-{% include codecompare.html code="<h1>Hoofding</h1>
+{% include codecompare.html id="hoofdingen" code="<h1>Hoofding</h1>
 <h2>Hoofding</h2>
 <h3>Hoofding</h3>
 <h4>Hoofding</h4>

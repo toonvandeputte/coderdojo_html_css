@@ -1,10 +1,31 @@
-<div class="codecompare">
-    <h4>Code</h4>
-    <div class="htmlcode">
-    {% highlight html %}{{ include.code }}{% endhighlight %}
+<div class="code_editor_cols" id="code_editor_cols_{{ include.id }}">
+    <div class="code_editor_wrapper">
+        <div class="code_editor" id="code_editor_{{ include.id }}">
+        POP
+        </div>
     </div>
-    <h4>Resultaat</h4>
-    <div class="htmlresult">
-    {{ include.code }}
+    <div class="code_preview_wrapper">
+        <div class="code_preview">
+        {{ include.code }}
+        </div>
     </div>
 </div>
+
+<script src="/js/vendor/ace-editor/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor_{{ include.id }} = ace.edit("code_editor_{{ include.id }}");
+    editor_{{ include.id }}.setTheme("ace/theme/vibrant_ink");
+    editor_{{ include.id }}.setOption("wrap", true);
+    editor_{{ include.id }}.getSession().setMode("ace/mode/{{ include.mode | default: 'html' }}");
+    editor_{{ include.id }}.setValue('{{ include.code | newline_to_br | strip_newlines | replace: "<br />","\n" }}');
+    editor_{{ include.id }}.clearSelection();
+    editor_{{ include.id }}.getSession().on('change', function(e) {
+        $("#code_editor_cols_{{ include.id }} .code_preview").html(
+            editor_{{ include.id }}.getSession().getValue().replace(
+                new RegExp("\([a-z -_0-9.# ]+{)", "gm"),
+                "#code_editor_cols_{{ include.id }} .code_preview $1"
+            )
+        );
+    });
+    editor_{{ include.id }}.blur();
+</script>
