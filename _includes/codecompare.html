@@ -1,7 +1,7 @@
 <div class="code_editor_cols" id="code_editor_cols_{{ include.id }}">
     <div class="code_editor_wrapper">
         <div class="code_editor" id="code_editor_{{ include.id }}">
-        POP
+        Bezig met laden...
         </div>
     </div>
     <div class="code_preview_wrapper">
@@ -11,7 +11,7 @@
     </div>
 </div>
 
-<script src="/js/vendor/ace-editor/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script src="{{ site.github.url }}/js/vendor/ace-editor/src-min-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
 <script>
     var editor_{{ include.id }} = ace.edit("code_editor_{{ include.id }}");
     editor_{{ include.id }}.setTheme("ace/theme/vibrant_ink");

@@ -9,7 +9,7 @@ Er zijn nog heel veel andere HTML-elementen die je kan ontdekken en gebruiken. W
 
 Hiermee kan je filmpjes op je webpagina zetten, zonder dat je die eerst op YouTube of zo moet uploaden. Je gebruikt dan wel best video's in het MP4 H.264 formaat. Dat zijn de meeste filmpjes met de 'mp4' extensie.
 
-{% include codecompare.html id="video" code="<video
+{% include codecompare.html id="mp4" code="<video
     width=\"480\"
     height=\"320\"
     controls=\"controls\">
